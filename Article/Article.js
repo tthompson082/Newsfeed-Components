@@ -34,6 +34,4 @@ articles.forEach(article => {
   const individualArticle = new Article(article)
 })
 
-console.log(articles)
-
-// let articles;
+const articleBody = document.querySelector('.articles');
